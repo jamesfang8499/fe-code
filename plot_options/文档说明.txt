@@ -1,0 +1,52 @@
+此文件夹中的文件，包含教材中期权盈亏图绘制的相关代码。代码以MATLAB的M文件形式体现，具体如下： 
+***********************
+*******函数部分******** 
+*********************** 
+BearCallSpread.m 				%% 熊市看涨价差交易 
+BearPutSpread.m 				%% 熊市看跌价差交易 
+BullCallSpread.m 				%% 牛市看涨价差交易 
+BullPutSpread.m 				%% 牛市看跌价差交易 
+ButterflyCallSpread.m 			%% 看涨蝶式价差交易 
+ButterflyPutSpread.m 			%% 看跌蝶式价差交易 
+CalendarSpread.m 				%% 日历价差交易 
+CoveredCall.m 				%% 备兑看涨期权 
+EagleCallSpread.m 				%% 看涨飞鹰式价差交易 
+EaglePutSpread.m 				%% 看跌飞鹰式价差交易 
+longcall.m 				%% 多头看涨期权交易 
+longput.m 				%% 多头看跌期权交易 
+longpos.m 				%% 多头现货/期货交易 
+ProtectivePut.m 				%% 保护性看跌期权 
+ratiospread.m 				%% 比率价差交易 
+shortcall.m 				%% 空头看涨期权交易 
+shortput.m 				%% 空头看跌期权交易 
+shortpos.m 				%% 空头现货/期货交易 
+straddle.m 				%% 同价对敲交易 
+strangle.m 				%% 异价对敲交易 
+stripstrap.m 				%% 条式/带式交易 	
+BoxSpread.m 				%% 盒式价差交易 
+
+***********************
+*******绘图部分******** 
+*********************** 
+plot_bull_bear_spread.m 			%% 绘制牛市、熊市价差交易的盈亏图 
+plot_butterfly_spread.m 			%% 绘制蝶状价差交易的盈亏图 
+plot_calendar.m 				%% 绘制日历价差交易的盈亏图 
+plot_eagle_spread.m 			%% 绘制飞鹰式价差交易的盈亏图 
+plot_greeks.m 				%% 绘制期权希腊值随标的资产价格的变动图 
+plot_hedge_position.m 			%% 绘制期权头寸对冲的盈亏图1 
+plot_option_hedge.m 			%% 绘制期权头寸对冲的盈亏图2 
+plot_options_base.m 			%% 绘制期权基本交易策略的盈亏图 
+plot_callprice.m 				%% 绘制看涨期权随到期时间的价格变化 
+plot_putprice.m 				%% 绘制看跌期权随到期时间的价格变化 
+plot_ratio.m 				%% 绘制期权比率价差交易的盈亏图 
+plot_straddle.m 				%% 绘制期权同价对敲策略的盈亏图 
+plot_strangle.m 				%% 绘制期权异价对敲策略的盈亏图 
+plot_stripstrap.m 				%% 绘制期权条式和带式策略的盈亏图 
+plot_synthetic.m 				%% 绘制期权合成策略的盈亏图 
+plot_zero_cost.m 				%% 绘制零成本期权策略的盈亏图 
+plot_box_spread.m 				%% 绘制盒状价差交易的盈亏图
+plot_delta.m 				%% 绘制delta的变动图 
+plot_gamma.m 				%% 绘制gamma的变动图 
+plot_theta.m 				%% 绘制theta的变动图 
+plot_vega.m 				%% 绘制vega的变动图 
+plot_rho.m 				%% 绘制rho的变动图
